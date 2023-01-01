@@ -3,7 +3,7 @@ import EmptyOrganism from ".";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
-  title: "component/Organisms/EmptyOrganisms",
+  title: "component/common/organisms/EmptyOrganisms",
   component: EmptyOrganism
 }
 

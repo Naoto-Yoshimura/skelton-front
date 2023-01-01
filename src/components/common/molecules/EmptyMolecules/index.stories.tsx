@@ -3,7 +3,7 @@ import EmptyMolecule from ".";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
-  title: "component/Molecules/EmptyMolecules",
+  title: "component/common/molecules/EmptyMolecules",
   component: EmptyMolecule
 }
 
@@ -22,4 +22,17 @@ export const MoleculeOfTwoEmptyAtomsCol = () => (
     <EmptyAtom>Atom2</EmptyAtom>
   </EmptyMolecule>
 );
+
+export const MoleculeOfSixEmptyAtomsCol = () => {
+  return(
+    <EmptyMolecule className="p-1 flex flex-col justify-start w-full">
+      <EmptyAtom className="h-1/8">Menu1</EmptyAtom>
+      <EmptyAtom className="h-1/8">Menu2</EmptyAtom>
+      <EmptyAtom className="h-1/8">Menu3</EmptyAtom>
+      <EmptyAtom className="h-1/8">Menu4</EmptyAtom>
+      <EmptyAtom className="h-1/8">Menu5</EmptyAtom>
+      <EmptyAtom className="h-1/8">Menu6</EmptyAtom>
+    </EmptyMolecule>
+  );
+}
 
